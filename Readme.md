@@ -1,3 +1,6 @@
+## Solution
+[Solutions](solutions.ts)
+
 ## Blog Posts
 
 1. [Access Modifiers in TypeScript OOP](access-modifier-ts-oop.md)
