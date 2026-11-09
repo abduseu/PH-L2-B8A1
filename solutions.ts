@@ -30,3 +30,8 @@ const formatCoordinate =(location: TLocation ) : string=>{
     return `Location: ${locationName} (${latitude}, ${longitude})`
 }
 
+
+const concatenateArrays = <T>(...arrays: T[][]): T[] => {
+    return arrays.flat();
+};
+
