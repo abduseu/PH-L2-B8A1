@@ -22,3 +22,11 @@ const processInput = (value: TValue): string | number=>{
     }
 }
 
+
+type TLocation = readonly[number, number, string]
+const formatCoordinate =(location: TLocation ) : string=>{
+    const [latitude, longitude, locationName] = location;
+
+    return `Location: ${locationName} (${latitude}, ${longitude})`
+}
+
